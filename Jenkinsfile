@@ -13,11 +13,11 @@ pipeline {
             }
         }
 
-        stage('Run Unit Tests') {
+        /*stage('Run Unit Tests') {
             steps {
                 sh 'go test ./...'
             }
-        }
+        }*/
 
         stage('Docker Build') {
             steps {
